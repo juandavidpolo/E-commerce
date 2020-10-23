@@ -2,19 +2,19 @@
   "categories": [
     {
       "categori_id": 1,
-      "name": "Bebidas"
+      "name": "Lorem"
     },
     {
       "categori_id": 2,
-      "name": "Almuerzos"
+      "name": "Ipsum"
     },
     {
       "categori_id": 3,
-      "name": "Snacks"
+      "name": "Dolor"
     },
     {
       "categori_id": 4,
-      "name": "Fast Food"
+      "name": "Sit"
     }
   ],
   "products": [
@@ -28,7 +28,7 @@
         1,
         4
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     },
     {
@@ -40,7 +40,7 @@
       "categories": [
         4
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     },
     {
@@ -52,7 +52,7 @@
       "categories": [
         4
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     },
     {
@@ -65,7 +65,7 @@
         1,
         2
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     },
     {
@@ -78,7 +78,7 @@
         1,
         4
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     },
     {
@@ -91,7 +91,7 @@
         1,
         4
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     },
     {
@@ -104,7 +104,7 @@
         1,
         3
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     },
     {
@@ -117,7 +117,7 @@
         1,
         3
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     },
     {
@@ -130,7 +130,7 @@
         2,
         4
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     },
     {
@@ -143,7 +143,7 @@
         2,
         3
       ],
-      "img": "http://lorempixel.com/200/100/food/",
+      "img": "http://placeimg.com/640/480/tech",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
     }
   ]
