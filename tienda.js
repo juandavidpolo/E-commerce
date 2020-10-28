@@ -29,6 +29,7 @@ function showProducts(jsonObj) {
       description.textContent = products[i].description;
       price.textContent = '$'+products[i].price;
       buyNow.textContent = 'Comprar ahora';
+      buyNow.title = 'Comprar ahora';
       
       productImg.src= products[i].img;
       buyNow.src= '#';
@@ -39,8 +40,17 @@ function showProducts(jsonObj) {
       cardBody.className += "card-body";
       cardTittle.className += "card-title";
       description.className += "card-text";
-      price.className += "badge badge-success";
-      buyNow.className += "btn btn-secondary";
+      price.className += "badge badge-danger";
+      buyNow.className += "btn btn-warning";
+      
+      if (products[i].best_seller === true){
+          const bestSeller = document.createElement('span');
+          const checkSeller = document.createElement('i');
+          checkSeller.textContent = ' Best seller';
+          bestSeller.className += "badge badge-success fa fa-check";
+          bestSeller.appendChild(checkSeller);
+          cardBody.appendChild(bestSeller);
+      }
       
       column.appendChild(myCard);
       myCard.appendChild(productImg);

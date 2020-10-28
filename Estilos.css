@@ -5,21 +5,16 @@ Secundario(contraste) #FEFEE3
 Terciario #4C956C
 contraste #D68C45
 */
-.container-fluid{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
 body{
-    overflow-x: hidden;
     margin:0px;
     padding: 0px;
 }
 footer{
     min-height: 200px;
+    padding: 20px;
 }
-.bg-light, footer {
-    background-color: #2C6E49!important;
+.navbar-dark, footer {
+    background-color: #2C6E49;
 }
 .navbar-light .navbar-nav .nav-link,  .navbar-light .navbar-brand, footer{
     color: #FEFEE3;

@@ -29,6 +29,7 @@ function showNewProducts(jsonObj) {
       description.textContent = products[i].description;
       price.textContent = 'Nuevo';
       buyNow.textContent = 'Comprar ahora';
+      buyNow.title = 'Comprar ahora';
       
       productImg.src= products[i].img;
       buyNow.src= '#';
@@ -40,8 +41,8 @@ function showNewProducts(jsonObj) {
       cardTittle.className += "card-title";
       description.className += "card-text";
       price.className += "badge badge-success";
-      buyNow.className += "btn btn-secondary";
-      cardBadge.className += "badge badge-warning";
+      buyNow.className += "btn btn-warning";
+      cardBadge.className += "badge badge-light";
       
       cardTittle.appendChild(cardBadge);
       column.appendChild(myCard);
