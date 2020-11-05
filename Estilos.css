@@ -1,0 +1,51 @@
+/*
+Colores:
+Principal #2C6E49
+Secundario(contraste) #FEFEE3
+Terciario #4C956C
+contraste #D68C45
+*/
+body{
+    margin:0px;
+    padding: 0px;
+}
+footer{
+    min-height: 200px;
+    padding: 20px;
+}
+.navbar-dark, footer {
+    background-color: #2C6E49;
+}
+.navbar-light .navbar-nav .nav-link,  .navbar-light .navbar-brand, footer{
+    color: #FEFEE3;
+}
+.navbar-light .navbar-nav .nav-link:hover,  .navbar-light .navbar-brand:hover{
+    color: #4C956C;
+}
+.footer-nav{
+    color: #FEFEE3;
+    text-decoration: none;
+}
+.footer-nav:hover{
+    color: #4C956C;
+    text-decoration: none;
+}
+.contact-nav{
+    color: #D68C45;
+    text-decoration: none;
+}
+.contact-nav:hover{
+    color: #FEFEE3;
+    text-decoration: none;
+}
+.card{
+    margin: 30px;
+}
+img{
+    height: 50vh;
+}
+/* 
+    Created on : 21/10/2020, 02:42:53 PM
+    Author     : juand
+*/
+
