@@ -44,6 +44,12 @@ footer{
 img{
     height: 50vh;
 }
+.btn-block{
+    background-color: #2C6E49;
+}
+.btn-block:hover{
+    background-color: #4C956C;
+}
 /* 
     Created on : 21/10/2020, 02:42:53 PM
     Author     : juand

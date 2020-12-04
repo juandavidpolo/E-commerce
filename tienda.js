@@ -1,5 +1,4 @@
 const tienda = document.querySelector('#catalogo');
-
 const requestURL = 'DataBase.json';
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -33,7 +32,8 @@ function showProducts(jsonObj) {
       price.textContent = '$'+products[i].price;
       buyNow.textContent = 'Comprar ahora';
       buyNow.title = 'Comprar ahora';
-      cat.textContent = ' Categoria: '+products[i].categories;
+      cat.textContent = ' Referencia '+products[i].id;
+      myCard.setAttribute('id', products[i].id);
       
       productImg.src= products[i].img;
       buyNow.src= '#';
@@ -51,7 +51,7 @@ function showProducts(jsonObj) {
       if (products[i].best_seller === true){
           const bestSeller = document.createElement('span');
           const checkSeller = document.createElement('i');
-          checkSeller.textContent = ' Best seller';
+          checkSeller.textContent = ' Best seller best-seller';
           bestSeller.className += "badge badge-success fa fa-check";
           bestSeller.appendChild(checkSeller);
           cardBody.appendChild(bestSeller);
